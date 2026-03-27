@@ -1,0 +1,16 @@
+# Development dependencies (in addition to requirements.txt)
+-r requirements.txt
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Linting & formatting
+ruff>=0.1.0
+black>=23.0.0
+
+# Type checking
+mypy>=1.0.0
+
+# Optional: OpenAI integration
+openai>=1.0.0

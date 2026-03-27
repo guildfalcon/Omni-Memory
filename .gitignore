@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyTorch model files (too large for git)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Memory bank outputs (generated, not source)
+msa_memory_bank/
+**/routing_keys.pt
+**/content_k.pt
+**/content_v.pt
+**/doc_index.json
+
+# Training outputs
+checkpoints/
+runs/
+wandb/
+logs/
+*.log
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+*.tar.gz
+*.whl
